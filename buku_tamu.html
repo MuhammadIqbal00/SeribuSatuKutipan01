@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Seribu Satu Kutipan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<header>
+		<div class="container">
+		<h1>Seribu Satu Kutipan</h1>
+			<ul>
+				<li><a href="index.html">Beranda</a></li>
+				<li><a href="buku_tamu.html">Buku Tamu</a></li>
+				<li><a href="kutipan.html">Kutipan</a></li>
+				<li><a href="profile.html">Profil</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<section class="banner">
+		<div class="container">
+			<i class="material-icons">emoji_objects</i>
+			<img src="https://drive.google.com/uc?export=view&id=1iupSN4u_LXAAYsuIaUICakhdfh88lu49">
+			<h2>Haii...<br>
+			Selamat Datang di Seribu Satu Kutipan</h2>
+		</div>
+	</section>
+	
+		<!-- Isi Buku Tamu -->
+
+		<div class="isi">
+			<h2>Buku Tamu</h2>
+			<form action="percobaan.html">
+			<div class="input">
+				Nama Lengkap :<br>
+				<input id="nama" type="text" name="nama_lengkap">
+				<br>
+				Jenis Kelamin :<br>
+				Laki-Laki<input type="radio" name="jenis_kelamin" value="L">
+				Perempuan<input type="radio" name="jenis_kelamin" value="P">
+				<br>
+				Alamat :<br>
+				<input id="alamat" type="text" name="alamat">
+				<br>
+				Email :<br>
+				<input id="email" type="text" name="email">
+				<br>
+				Mengunjungi Website Ini Pada Tanggal :<br>
+				<input type="date">
+				<br>
+				Mengetahui Web Ini Dari :</td><br>
+				<select id="pilihan" name="info">
+					<option selected="select">-=Pilih=-</option>
+					<option value="web udinus">Web Udinus</option>
+					<option value="surat kabar">Surat Kabar</option>
+					<option value="sosial media">Sosial Media</option>
+					<option value="teman">Teman</option>
+				</select>
+				<br>
+				Pesan :<br>
+				<textarea id="pesan" name="pesan" cols="30" rows="5"></textarea>
+				<br>
+				<input id="submit-btn" type="submit" value="Kirim">
+				<input id="reset-btn" type="reset" value="Reset">
+			</div>
+			</form>
+		</div>
+</body>
+</html>

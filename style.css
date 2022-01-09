@@ -1,0 +1,209 @@
+* {
+	padding : 0px;
+	margin : 0px;
+	font-family : 'Balthazar', serif;
+} 
+header {
+	height : 70px;
+} 
+header h1 {
+	display : inline-block;
+	float : left;
+	padding : 18px 24px;
+}
+header ul {
+	float : right;
+} 
+header ul li {
+	padding : 25px;
+	display : inline-block;
+}
+header ul li a {
+	color : black;
+} 
+a {
+	text-decoration : none;
+} 
+header a:hover { 
+	color : red;
+} 
+header a {
+	transition : .3s;
+} 
+.container {
+	width : 90%;
+	margin : 0 auto;
+}
+.container::after {
+	content : "";
+	display : block;
+	clear : both;
+} 
+.banner {
+	background-color : #191970;
+	color : #fff;
+} 
+section {
+	padding : 50px 0px;
+}
+.material-icons i {
+	width : 50px;
+	height : 50px;
+	border-radius : 10px;
+} 
+.banner img {
+	width : 300px;
+	border-radius : 10px;
+	box-shadow : 0.3px 5px #ddd;
+	float : right;
+} 
+.konten {
+	margin-top : 10px;
+	margin-left : 10px;
+}
+.konten p {
+	margin-top : 10px;
+	font-size : 20px;
+}
+
+/* Buku Tamu */
+.isi {
+	margin-top : 0px;
+	margin-left : 10px;
+}
+.isi input {
+	position : relative;
+	margin-bottom : 10px;
+	height : 20px;
+	border : 2px solid black;
+	border-radius : 10px;
+	font-size : 15px;
+} 
+#submit-btn {
+	background-color : #191970;
+	color : #fff;
+	border : none;
+	text-transform : uppercase;
+	width : 5%;
+}
+#reset-btn {
+	background-color : #191970;
+	color : #fff;
+	border : none;
+	text-transform : uppercase;
+	width : 5%;
+}
+#pilihan {
+	border : 2px solid black;
+}
+#pesan {
+	border : 2px solid black;
+	font-size : 15px;
+} 
+#nama { 
+	width : 20%;
+}
+#alamat {
+	width : 25%;
+} 
+#email {
+	width : 15%;
+} 	
+.isi h2 {
+	margin : 10px;
+	margin-left : 10px;
+	font-size : 30px;
+}
+
+/* Isi Kutipan */
+
+.isi-kutipan {
+	text-align : center;
+	background-color : #787276;
+} 
+.isi-kutipan h2 {
+	text-align : center;
+	margin-top : 0px;
+	padding : 10px;
+	position : relative;
+	font-size : 30px;
+} 
+.isi-kutipan p {
+	margin-top : 10px;
+	padding : 10px;
+	font-size : 20px;
+	background-color : #d9dddc;	
+	border : 1px solid #c7c6c1;
+} 
+.isi-kutipan p1 {
+	margin-top : 20px;
+	font-size : 20px;
+	background-color : #b0b7ab;
+	border : 1px solid #c6c7c1;
+}	
+.isi-kutipan ul li a {
+	margin : 10px;
+	font-size : 20px;
+	color : #4b0082;
+	text-decoration : none;
+}
+.col {
+	width : 15%;
+	box-size : border-box;
+	padding : 5px;
+	float : left;
+	text-align : center;
+}
+.col img {
+	width : 100%;
+	margin-top : 10px;
+} 
+.col a:hover img {
+	transform : scale(1.2);
+}
+.col span {
+	color : black;
+	font-size : 15px;
+}
+
+/* profile */
+
+.isi-profile {
+	margin-top : 10px;
+	margin-left : 10px;
+}
+.isi-profile h2 {
+	font-size : 30px;
+	margin : 10px;
+}
+.isi-profile p {
+	font-size : 20px;
+	margin-bottom : 10px;
+}
+.social-media-icon {
+	margin : 10px 5px;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    border-radius: 10px;
+}
+
+a.social-media-icon:hover{
+    background: #fff;
+    color: #222;
+}
+		
+/* Footer */
+
+footer {
+	background-color : #333;
+	margin-top : 10px;
+	padding : 30px;
+	text-align : center;
+} 
+footer small {
+	color : #fff;
+} 
+
+
+	
